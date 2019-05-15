@@ -2,8 +2,41 @@
   "name": "@elanandkumar/events-timeline",
   "version": "0.0.1",
   "description": "A react component to have timeline for events where you can show speakers details and the time",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elanandkumar/events-timeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elanandkumar/events-timeline/issues"
+  },
+  "homepage": "https://github.com/elanandkumar/events-timeline#README",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "events",
+    "timeline",
+    "react component",
+    "events timeline",
+    "npm",
+    "package",
+    "elanandkumar",
+    "events-timeline"
+  ],
   "author": "Anand Kumar",
-  "license": "ISC"
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
